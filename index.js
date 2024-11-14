@@ -25,7 +25,7 @@ mongoose
 
 
 app.get("/api", (req, res) => {
-  res.send("Backend is running");
+  res.send("node js application  is running");
 }); 
 
 app.use("/api/auth", authRoute);
