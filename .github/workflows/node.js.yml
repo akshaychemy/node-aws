@@ -28,3 +28,4 @@ jobs:
     - run : |
         touch .env
         echo "${{ secrets.NODE_SECRET}}" > .env
+    - run : pm2 restart BackendAPI
